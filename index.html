@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>geografiaColombia</title>
     <link  rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -96,6 +97,7 @@
                 <div class="btn-1" data-info="info-ubicacion1">Informacion</div>
                 
             </div>
+
 
             <div class="adventur-1 bg-2">
 
@@ -324,33 +326,6 @@
 
         </div>
 
-    </footer>
-
-    <script>
-        document.querySelectorAll('.btn-1').forEach(function(btn) {
-    btn.addEventListener('mouseover', function() {
-        const infoId = btn.getAttribute('data-info');
-        document.getElementById(infoId).style.display = 'block';
-    });
-
-    btn.addEventListener('mouseout', function(event) {
-        const infoId = btn.getAttribute('data-info');
-        const info = document.getElementById(infoId);
-        if (!event.relatedTarget || (event.relatedTarget !== info && !info.contains(event.relatedTarget))) {
-            info.style.display = 'none';
-        }
-    });
-});
-
-document.querySelectorAll('.info-box').forEach(function(info) {
-    info.addEventListener('mouseout', function(event) {
-        if (!event.relatedTarget || !event.relatedTarget.classList.contains('btn-1')) {
-            info.style.display = 'none';
-        }
-    });
-});
-
-
-    </script>        
+    </footer>   
 </body>
 </html>
