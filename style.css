@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
-    margin: 0; /* Remueve el margen por defecto */
-    padding: 0; /* Remueve el padding por defecto */
-    box-sizing: border-box; /* Hace que el ancho y alto sean los que se definen, sin incluir el padding y el borde */
-    text-decoration: none; /* Remueve el subrayado de los links */
-    list-style: none; /* Remueve los puntos de las listas */
+    margin: 0;
+    /* Remueve el margen por defecto */
+    padding: 0;
+    /* Remueve el padding por defecto */
+    box-sizing: border-box;
+    /* Hace que el ancho y alto sean los que se definen, sin incluir el padding y el borde */
+    text-decoration: none;
+    /* Remueve el subrayado de los links */
+    list-style: none;
+    /* Remueve los puntos de las listas */
 }
 
 body {
@@ -14,451 +19,662 @@ body {
 }
 
 .container {
-    max-width: 1100px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centra el contenedor */
+    max-width: 1100px;
+    /* Ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor */
 }
 
 .header {
-    background-image: linear-gradient( 
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.7)
-    ),
-    url(images/fondo.jpg); /* Imagen de fondo */
-    background-position: center top; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    min-height: 70vh; /* Altura mínima del contenedor */
-    display: flex; /* Sirve para alinear los elementos */
-    align-items: center; /* Alinea los elementos verticalmente */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.7)),
+        url(images/fondo.jpg);
+    /* Imagen de fondo */
+    background-position: center top;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    min-height: 70vh;
+    /* Altura mínima del contenedor */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
 }
 
 .menu {
-    position: absolute; /* Se posiciona de forma absoluta */
-    top: 0; /* Se posiciona en la parte superior */
-    left: 0; /* Se posiciona en la parte izquierda */
-    right: 0; /* Se posiciona en la parte derecha */
-    display: flex; /* Sirve para alinear los elementos */
-    align-items: center; /* Alinea los elementos verticalmente */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
+    position: absolute;
+    /* Se posiciona de forma absoluta */
+    top: 0;
+    /* Se posiciona en la parte superior */
+    left: 0;
+    /* Se posiciona en la parte izquierda */
+    right: 0;
+    /* Se posiciona en la parte derecha */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+    justify-content: space-between;
+    /* Alinea los elementos horizontalmente */
 }
 
 .logo {
-    font-size: 30px; /* Tamaño de la fuente */
-    color: #F1ECDC; /* Color del texto */
-    font-weight: 800; /* Grosor de la fuente */
+    font-size: 30px;
+    /* Tamaño de la fuente */
+    color: #F1ECDC;
+    /* Color del texto */
+    font-weight: 800;
+    /* Grosor de la fuente */
 }
 
 .menu .navbar ul li {
-    position: relative; /* Se ubica de tal forma que se pueda posicionar de forma absoluta */
-    float: left; /* Se ubica a la izquierda */
+    position: relative;
+    /* Se ubica de tal forma que se pueda posicionar de forma absoluta */
+    float: left;
+    /* Se ubica a la izquierda */
 }
 
 .menu .navbar ul li a {
-    font-size: 20px; /* Tamaño de la fuente */
-    padding: 20px; /* Espaciado interno */
-    color:#F1ECDC; /* Color del texto */
-    display: block; /* Hace que el elemento sea un bloque */
+    font-size: 20px;
+    /* Tamaño de la fuente */
+    padding: 20px;
+    /* Espaciado interno */
+    color: #F1ECDC;
+    /* Color del texto */
+    display: block;
+    /* Hace que el elemento sea un bloque */
 }
 
 .menu .navbar ul li a:hover {
-    color: #bf2929; /* Color del texto al pasar el mouse */
+    color: #bf2929;
+    /* Color del texto al pasar el mouse */
 }
 
 #menu {
-    display: none; /* No se muestra el menú */
+    display: none;
+    /* No se muestra el menú */
 }
 
 .menu-icono {
-    width: 25px; /* Ancho del icono */
+    width: 25px;
+    /* Ancho del icono */
 }
 
 .menu label {
-    cursor: pointer; /* El cursor se convierte en una mano */
-    display: none; /* No se muestra el label */
+    cursor: pointer;
+    /* El cursor se convierte en una mano */
+    display: none;
+    /* No se muestra el label */
 }
 
 .header-content {
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 .header-txt span {
-    font-size: 30px; /* Tamaño de la fuente */
-    color:#FEDAB6; /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de la fuente */
+    color: #FEDAB6;
+    /* Color del texto */
 }
 
 .header-txt h1 {
-    font-size: 120px; /* Tamaño de la fuente */
-    line-height: 120px; /* Altura de la línea */
-    color:#F1ECDC; /* Color del texto */
+    font-size: 120px;
+    /* Tamaño de la fuente */
+    line-height: 120px;
+    /* Altura de la línea */
+    color: #F1ECDC;
+    /* Color del texto */
 }
 
 .price {
-    display: flex; /* Sirve para alinear los elementos */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
-    border: 1px solid #44444c; /* Borde del contenedor */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    justify-content: space-between;
+    /* Alinea los elementos horizontalmente */
+    border: 1px solid #44444c;
+    /* Borde del contenedor */
 }
 
 .price-1 {
-    height: 150px; /* Altura del contenedor */
-    width: 300px; /* Ancho del contenedor */
-    border-right: 1px solid #44444C; /* Borde derecho del contenedor */
-    padding: 20px; /* Espaciado interno */
+    height: 150px;
+    /* Altura del contenedor */
+    width: 300px;
+    /* Ancho del contenedor */
+    border-right: 1px solid #44444C;
+    /* Borde derecho del contenedor */
+    padding: 20px;
+    /* Espaciado interno */
 }
 
 .price-1:last-child {
-    border: 0; /* No se muestra el borde */
+    border: 0;
+    /* No se muestra el borde */
 }
 
 .price-1 p {
-    color: #FEDAB6; /* Color del texto */
-    font-size: 20px; /* Tamaño de la fuente */
+    color: #FEDAB6;
+    /* Color del texto */
+    font-size: 20px;
+    /* Tamaño de la fuente */
 }
 
 .price-1 h3 {
-    color:#FFF9ED; /* Color del texto */
-    font-size: 25px; /* Tamaño de la fuente */
+    color: #FFF9ED;
+    /* Color del texto */
+    font-size: 25px;
+    /* Tamaño de la fuente */
 }
 
 .adventur {
-    margin-top: 80px; /* Margen superior */
-    text-align: center; /* Alinea el texto al centro */
+    margin-top: 80px;
+    /* Margen superior */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 span {
-    color:#FEDAB6; /* Color del texto */
-    font-size: 30px; /* Tamaño de la fuente */
+    color: #FEDAB6;
+    /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de la fuente */
 }
 
 h2 {
-    color:#FFF9ED; /* Color del texto */
-    font-size: 70px; /* Tamaño de la fuente */
-    line-height: 70px; /* Altura de la línea */
-    margin-bottom: 35px; /* Margen inferior */
+    color: #FFF9ED;
+    /* Color del texto */
+    font-size: 70px;
+    /* Tamaño de la fuente */
+    line-height: 70px;
+    /* Altura de la línea */
+    margin-bottom: 35px;
+    /* Margen inferior */
 }
 
 .adventur-content {
-    display: flex; /* Sirve para alinear los elementos */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
-    margin-top: 120px; /* Margen superior */
-    margin-bottom: 5px; /* Margen inferior */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    justify-content: space-between;
+    /* Alinea los elementos horizontalmente */
+    margin-top: 120px;
+    /* Margen superior */
+    margin-bottom: 5px;
+    /* Margen inferior */
 }
 
 .adventur-1 {
-    padding: 25px 65px; /* Espaciado interno */
-    display: flex; /* Sirve para alinear los elementos */
-    flex-direction: column; /* Alinea los elementos verticalmente */
-    align-items: center; /* Alinea los elementos verticalmente */
+    padding: 25px 65px;
+    /* Espaciado interno */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    flex-direction: column;
+    /* Alinea los elementos verticalmente */
+    align-items: center;
+    /* Alinea los elementos verticalmente */
 }
 
 .adventur-1 img {
-    width: 170px; /* Ancho de la imagen */
-    margin: -120px 0 30px 0; /* Margen de la imagen */
-    border-radius: 50%; /* Esto hará que la imagen sea circular */
+    width: 170px;
+    /* Ancho de la imagen */
+    margin: -120px 0 30px 0;
+    /* Margen de la imagen */
+    border-radius: 50%;
+    /* Esto hará que la imagen sea circular */
 }
 
 .adventur-1 h3 {
-    color:#0E0E1A; /* Color del texto */
-    font-size: 40px; /* Tamaño de la fuente */
-    line-height: 45px; /* Altura de la línea */
-    margin-bottom: 150px; /* Margen inferior */
+    color: #0E0E1A;
+    /* Color del texto */
+    font-size: 40px;
+    /* Tamaño de la fuente */
+    line-height: 45px;
+    /* Altura de la línea */
+    margin-bottom: 150px;
+    /* Margen inferior */
 }
 
 .bg-1 {
-    background-image: url(images/ubicacionColombia.png); /* Imagen de fondo */
-    background-position: center center; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    width: 28%; /* Ancho del contenedor */
-    height: 400px; /* Altura del contenedor */
+    background-image: url(images/ubicacionColombia.png);
+    /* Imagen de fondo */
+    background-position: center center;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    width: 28%;
+    /* Ancho del contenedor */
+    height: 400px;
+    /* Altura del contenedor */
 }
 
 .bg-2 {
-    background-image: url(images/fronteras_limites.jpg); /* Imagen de fondo */
-    background-position: center center; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    width: 28%; /* Ancho del contenedor */
-    height: 400px; /* Altura del contenedor */
+    background-image: url(images/fronteras_limites.jpg);
+    /* Imagen de fondo */
+    background-position: center center;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    width: 28%;
+    /* Ancho del contenedor */
+    height: 400px;
+    /* Altura del contenedor */
 }
 
 .bg-3 {
-    background-image: url(images/clima.jpg); /* Imagen de fondo */
-    background-position: center center; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    width: 28%; /* Ancho del contenedor */
-    height: 400px; /* Altura del contenedor */
+    background-image: url(images/clima.jpg);
+    /* Imagen de fondo */
+    background-position: center center;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    width: 28%;
+    /* Ancho del contenedor */
+    height: 400px;
+    /* Altura del contenedor */
 }
 
 .btn-1 {
-    display: inline-block; /* Hace que el elemento sea un bloque */ 
-    padding: 13px 25px; /* Espaciado interno */
-    background-color: #bf2929; /* Color de fondo */
-    color:#FFF9ED; /* Color del texto */
-    font-size: 20px; /* Tamaño de la fuente */
+    display: inline-block;
+    /* Hace que el elemento sea un bloque */
+    padding: 13px 25px;
+    /* Espaciado interno */
+    background-color: #bf2929;
+    /* Color de fondo */
+    color: #FFF9ED;
+    /* Color del texto */
+    font-size: 20px;
+    /* Tamaño de la fuente */
 }
 
 .btn-1:hover {
-    background-color: #f0af71; /* Color de fondo al pasar el mouse */
+    background-color: #f0af71;
+    /* Color de fondo al pasar el mouse */
+}
+
+.info-box-dinamico {
+    display: none;
+    /* Oculta inicialmente */
+    background-color: #fff;
+    /* Fondo blanco */
+    color: #000;
+    /* Texto en color negro */
+    padding: 20px;
+    /* Espacio interno */
+    z-index: 5000;
+    /* Asegura que se muestre sobre otros elementos */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el ancho final */
+    margin-left: 55px;
+    margin-right: 55px;
+    width: 250%;
+    /* porcentaje del contenedor padre */
+    max-width: 600px;
+    /* un máximo para evitar que sea demasiado grande en pantallas grandes */
+    height: auto;
+
 }
 
 .info-box {
-    display: none; /* Oculta inicialmente */
-    background-color: #fff; /* Fondo blanco */
-    color: #000; /* Texto en color negro */
-    padding: 20px; /* Espacio interno */
-    z-index: 1000; /* Asegura que se muestre sobre otros elementos */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+    display: none;
+    /* Oculta inicialmente */
+    background-color: #fff;
+    /* Fondo blanco */
+    color: #000;
+    /* Texto en color negro */
+    padding: 20px;
+    /* Espacio interno */
+    z-index: 1000;
+    /* Asegura que se muestre sobre otros elementos */
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el ancho final */
     margin-left: 55px;
     margin-right: 55px;
 }
 
 .general {
     margin-top: 10px;
-    padding: 100px 0; /* Espaciado interno */
-    display: flex; /* Sirve para alinear los elementos */
+    padding: 100px 0;
+    /* Espaciado interno */
+    display: flex;
+    /* Sirve para alinear los elementos */
 }
 
 .general-img {
-    width: 50%; /* Ancho del contenedor */
-    text-align: center; /* Alinea el texto al centro */
+    width: 50%;
+    /* Ancho del contenedor */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 .general-img img {
-    width: 500px; /* Ancho de la imagen */
+    width: 500px;
+    /* Ancho de la imagen */
 }
 
 .general-txt {
-    width: 50%; /* Ancho del contenedor */
+    width: 50%;
+    /* Ancho del contenedor */
 }
 
 .general-txt p {
-    font-size: 18px; /* Tamaño de la fuente */
-    color:#FFF9ED; /* Color del texto */
-    margin-bottom: 35px; /* Margen inferior */
-    font-family: Arial, Helvetica, sans-serif; /* Fuente del texto */
+    font-size: 18px;
+    /* Tamaño de la fuente */
+    color: #FFF9ED;
+    /* Color del texto */
+    margin-bottom: 35px;
+    /* Margen inferior */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fuente del texto */
     text-align: justify;
 }
 
 .banner {
-    padding: 150px 0; /* Espaciado interno */
-    text-align: center; /* Alinea el texto al centro */
-    background-image: linear-gradient( 
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.7)
-    ),
-    url(images/regiones.png); /* Imagen de fondo */
-    background-position: center center; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    background-attachment: fixed; /* La imagen se mantiene fija */
+    padding: 150px 0;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alinea el texto al centro */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.7)),
+        url(images/regiones.png);
+    /* Imagen de fondo */
+    background-position: center center;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    background-attachment: fixed;
+    /* La imagen se mantiene fija */
 }
 
 .banner-2 {
-    padding: 150px 0; /* Espaciado interno */
-    text-align: center; /* Alinea el texto al centro */
-    background-image: linear-gradient( 
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.7)
-    ),
-    url(images/relieveColombiano.png); /* Imagen de fondo */
-    background-position: center center; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: cover; /* La imagen se ajusta al tamaño del contenedor */
-    background-attachment: fixed; /* La imagen se mantiene fija */
+    padding: 150px 0;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alinea el texto al centro */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.7)),
+        url(images/relieveColombiano.png);
+    /* Imagen de fondo */
+    background-position: center center;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: cover;
+    /* La imagen se ajusta al tamaño del contenedor */
+    background-attachment: fixed;
+    /* La imagen se mantiene fija */
 }
 
 .plan {
-    padding: 100px 0; /* Espaciado interno */
-    text-align: center; /* Alinea el texto al centro */
+    padding: 100px 0;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alinea el texto al centro */
 }
 
 .plan-content {
-    display: flex; /* Sirve para alinear los elementos */
-    text-align: center; /* Alinea el texto al centro */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    text-align: center;
+    /* Alinea el texto al centro */
+    justify-content: space-between;
+    /* Alinea los elementos horizontalmente */
 }
 
 .plan-1 {
-    width: 30%; /* Ancho del contenedor */
-    padding: 25px; /* Espaciado interno */
+    width: 30%;
+    /* Ancho del contenedor */
+    padding: 25px;
+    /* Espaciado interno */
 }
 
 .plan-1 img {
-    width: 40px; /* Ancho de la imagen */
-    height: 40px; /* Altura de la imagen */
-    margin-bottom: 25px; /* Margen inferior */
+    width: 40px;
+    /* Ancho de la imagen */
+    height: 40px;
+    /* Altura de la imagen */
+    margin-bottom: 25px;
+    /* Margen inferior */
 }
 
 .plan-1 h3 {
-    color:#FFF9ED; /* Color del texto */
-    font-size: 30px; /* Tamaño de la fuente */
-    margin-bottom: 20px; /* Margen inferior */
+    color: #FFF9ED;
+    /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de la fuente */
+    margin-bottom: 20px;
+    /* Margen inferior */
 }
 
 .plan-1 p {
-    font-size: 18px; /* Tamaño de la fuente */
-    color:#FFF9ED; /* Color del texto */
-    font-family: Arial, Helvetica, sans-serif; /* Fuente del texto */
+    font-size: 18px;
+    /* Tamaño de la fuente */
+    color: #FFF9ED;
+    /* Color del texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Fuente del texto */
 }
 
 .footer {
-    padding: 250px 0 50px 0; /* Espaciado interno */
-    background-image:  linear-gradient( 
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.7)
-    ),
-    url(images/caraVaca.png); /* Imagen de fondo */
-    background-position: center bottom; /* Posición de la imagen */
-    background-repeat: no-repeat; /* No se repite la imagen */
-    background-size: contain; /* La imagen se ajusta al tamaño del contenedor */
+    padding: 250px 0 50px 0;
+    /* Espaciado interno */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.7)),
+        url(images/caraVaca.png);
+    /* Imagen de fondo */
+    background-position: center bottom;
+    /* Posición de la imagen */
+    background-repeat: no-repeat;
+    /* No se repite la imagen */
+    background-size: contain;
+    /* La imagen se ajusta al tamaño del contenedor */
 }
 
 .footer-content {
-    display: flex; /* Sirve para alinear los elementos */
-    justify-content: space-between; /* Alinea los elementos horizontalmente */
+    display: flex;
+    /* Sirve para alinear los elementos */
+    justify-content: space-between;
+    /* Alinea los elementos horizontalmente */
 }
 
 .footer-content a {
-    display: block; /* Hace que el elemento sea un bloque */
-    font-size: 25px; /* Tamaño de la fuente */
-    color: #FFF9ED; /* Color del texto */
+    display: block;
+    /* Hace que el elemento sea un bloque */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    color: #FFF9ED;
+    /* Color del texto */
 }
 
 .footer-content a:hover {
-    color:#FEDAB6; /* Color del texto al pasar el mouse */
+    color: #FEDAB6;
+    /* Color del texto al pasar el mouse */
 }
 
-@media(max-width:1100px) { /* Media query para dispositivos de hasta 991px de ancho */
+@media(max-width:1100px) {
+
+    /* Media query para dispositivos de hasta 991px de ancho */
     /* Cuando la resolucion de la pantalla baje a 991px quiero que tomes el siguiente estilo */
     .menu {
-        padding: 20px; /* Espaciado interno */
+        padding: 20px;
+        /* Espaciado interno */
     }
 
     .menu label {
-        display: initial; /* Muestra el label */
+        display: initial;
+        /* Muestra el label */
     }
 
     .menu .navbar {
-        position: absolute; /* Se posiciona de forma absoluta */
-        top: 100%; /* Se posiciona en la parte superior */
-        left: 0; /* Se posiciona en la parte izquierda */
-        right: 0; /* Se posiciona en la parte derecha */
-        background-color:#1F1F1F; /* Color de fondo */
-        display: none; /* No se muestra el menú */
+        position: absolute;
+        /* Se posiciona de forma absoluta */
+        top: 100%;
+        /* Se posiciona en la parte superior */
+        left: 0;
+        /* Se posiciona en la parte izquierda */
+        right: 0;
+        /* Se posiciona en la parte derecha */
+        background-color: #1F1F1F;
+        /* Color de fondo */
+        display: none;
+        /* No se muestra el menú */
     }
 
     .menu .navbar ul li {
-        width: 100%; /* Ancho del contenedor */
+        width: 100%;
+        /* Ancho del contenedor */
     }
 
-    #menu:checked ~ .navbar {
-        display: initial; /* Muestra el menú */
+    #menu:checked~.navbar {
+        display: initial;
+        /* Muestra el menú */
     }
 
     .header {
-        min-height: 0vh; /* Altura mínima del contenedor */
+        min-height: 0vh;
+        /* Altura mínima del contenedor */
     }
 
     .header-content {
-        padding: 100px 30px; /* Espaciado interno */
+        padding: 100px 30px;
+        /* Espaciado interno */
     }
 
     .header-txt h1 {
-        font-size: 80px; /* Tamaño de la fuente */
-        line-height: 80px; /* Altura de la línea */
+        font-size: 80px;
+        /* Tamaño de la fuente */
+        line-height: 80px;
+        /* Altura de la línea */
     }
 
     .price-1 {
-        height: 200px; /* Altura del contenedor */
-        width: 100%; /* Ancho del contenedor */
+        height: 200px;
+        /* Altura del contenedor */
+        width: 100%;
+        /* Ancho del contenedor */
     }
 
     .price-1 p {
-        font-size: 15px; /* Tamaño de la fuente */
+        font-size: 15px;
+        /* Tamaño de la fuente */
     }
 
     .price-1 h3 {
-        font-size: 15px; /* Tamaño de la fuente */
+        font-size: 15px;
+        /* Tamaño de la fuente */
     }
 
     .adventur {
-        padding: 30px; /* Espaciado interno */
+        padding: 30px;
+        /* Espaciado interno */
     }
 
     h2 {
-        margin-bottom: 25px; /* Margen inferior */
+        margin-bottom: 25px;
+        /* Margen inferior */
     }
 
     .adventur-content {
-        flex-direction: column; /* Alinea los elementos verticalmente */
-        align-items: center; /* Alinea los elementos verticalmente */
-        margin-top: 100px; /* Margen superior */
+        flex-direction: column;
+        /* Alinea los elementos verticalmente */
+        align-items: center;
+        /* Alinea los elementos verticalmente */
+        margin-top: 100px;
+        /* Margen superior */
     }
 
     .adventur-1 {
-        width: 70%; /* Ancho del contenedor */
-        margin-bottom: 130px; /* Margen inferior */
+        width: 70%;
+        /* Ancho del contenedor */
+        margin-bottom: 130px;
+        /* Margen inferior */
     }
 
     .adventur-1:last-child {
-        margin-bottom: 0; /* No se muestra el margen inferior */
+        margin-bottom: 0;
+        /* No se muestra el margen inferior */
     }
 
     .general {
-        padding: 30px;  /* Espaciado interno */
-        flex-direction: column; /* Alinea los elementos verticalmente */
+        padding: 30px;
+        /* Espaciado interno */
+        flex-direction: column;
+        /* Alinea los elementos verticalmente */
     }
 
     .general-img {
-        width: 100%; /* Ancho del contenedor */
-        order: 2; /* Cambia el orden de los elementos */
+        width: 100%;
+        /* Ancho del contenedor */
+        order: 2;
+        /* Cambia el orden de los elementos */
     }
 
     .general-img img {
-        width: 100%; /* Ancho de la imagen */
+        width: 100%;
+        /* Ancho de la imagen */
     }
 
     .general-txt {
-        width: 100%; /* Ancho del contenedor */
-        text-align: center; /* Alinea el texto al centro */
-        margin-bottom: 25px; /* Margen inferior */
+        width: 100%;
+        /* Ancho del contenedor */
+        text-align: center;
+        /* Alinea el texto al centro */
+        margin-bottom: 25px;
+        /* Margen inferior */
     }
 
     .general-txt p {
-        margin-bottom: 25px; /* Margen inferior */
+        margin-bottom: 25px;
+        /* Margen inferior */
     }
 
     .banner {
-        padding: 30px; /* Espaciado interno */
+        padding: 30px;
+        /* Espaciado interno */
     }
 
     .plan {
-        padding: 30px; /* Espaciado interno */ 
+        padding: 30px;
+        /* Espaciado interno */
     }
 
     .plan-content {
-        flex-direction: column; /* Alinea los elementos verticalmente */
+        flex-direction: column;
+        /* Alinea los elementos verticalmente */
     }
 
     .plan-1 {
-        width: 100%; /* Ancho del contenedor */
-        padding: 25px 100px; /* Espaciado interno */
+        width: 100%;
+        /* Ancho del contenedor */
+        padding: 25px 100px;
+        /* Espaciado interno */
     }
 
     .footer {
-        padding: 30px; /* Espaciado interno */
+        padding: 30px;
+        /* Espaciado interno */
     }
 
     .footer-content {
-        flex-direction: column; /* Alinea los elementos verticalmente */
-        text-align: center; /* Alinea el texto al centro */
+        flex-direction: column;
+        /* Alinea los elementos verticalmente */
+        text-align: center;
+        /* Alinea el texto al centro */
     }
 
     .footer-content a {
-        margin-bottom: 40px; /* Margen inferior */
+        margin-bottom: 40px;
+        /* Margen inferior */
     }
-    
+
 }
-
-
